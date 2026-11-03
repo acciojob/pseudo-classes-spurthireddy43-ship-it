@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+*{
+	background-color:rgb(135,206,235)
+}
+.container{
+	background-color:gray;
+	width:50%;
+	padding:10px;
+	font-size:22px;
+}
+.container :first-child{
+	background-color:white;
+	}
+.container :last-child{
+	background-color:white;
+}	
+.container :nth-child(2){
+	background-color:pink;
+}
